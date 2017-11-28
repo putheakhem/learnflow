@@ -1,0 +1,14 @@
+.idea
+/Build/
+/Configuration/
+/Data/
+/Packages/Application/*
+!/Packages/Application/Puthea.SitePackage/
+/Packages/Libraries/
+/Packages/Framework
+/Web/
+/bin/
+/Readme.rst
+/Upgrading.rst
+/flow
+/flow.bat

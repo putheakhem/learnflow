@@ -1,0 +1,18 @@
+{
+    "description": "",
+    "type": "neos-package",
+    "name": "puthea/sitepackage",
+    "require": {
+        "neos/flow": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Puthea\\SitePackage\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "Puthea.SitePackage"
+        }
+    }
+}

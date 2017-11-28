@@ -1,0 +1,21 @@
+#                                                                        #
+# Default routes configuration for the Puthea.SitePackage                #
+#                                                                        #
+
+-
+  name: 'Welcome screen'
+  uriPattern: ''
+  defaults:
+    '@package':    'Puthea.SitePackage'
+    '@controller': 'Standard'
+    '@action':     'index'
+    '@format':     'html'
+
+-
+  name: 'Welcome screen'
+  uriPattern: '/'
+  defaults:
+    '@package':    'Puthea.SitePackage'
+    '@controller': 'Standard'
+    '@action':     'redirect'
+    '@format':     'html'
